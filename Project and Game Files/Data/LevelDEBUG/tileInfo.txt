@@ -1,0 +1,2 @@
+12,5:Locked=one
+12,2:Status=tile_Regeneration

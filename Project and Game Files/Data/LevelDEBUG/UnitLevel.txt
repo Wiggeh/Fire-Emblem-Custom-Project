@@ -1,0 +1,65 @@
+# UnitLevel.txt is used to define what units will be part of this level and where they will spawn
+# 
+# Each unit belongs on its own line
+# Syntax:
+# New Units:
+# team; 0; event_id; class; level; items; position; ai; faction; status (optional)
+# - OR -
+# Named units:
+# team; 1; event_id; unit_id; position; ai
+# - OR -
+# Created Units:
+# team; 2; event_id; class; items; position; ai; faction; status (optional)
+# 
+# event_id gives the unit a unique id that scripts can use. The unit will not start on the battlefield unless event_id == 0.
+# unit_id - unit to load from the units.xml file
+# position should be formatted like #,#
+# ai refers to what kind of AI the unit should possess.
+#
+# --------------------------------------------
+faction;Empire;Empire;Empire;
+faction;Resistance;Resistance;Resistance;
+# Player Characters
+player;0;0;Jaeger;10,17;None
+player;0;0;NANC;7,18;None
+player;0;0;Kenboslice;8,17;None
+player;0;0;Olive;16,18;None
+player;0;0;Mama Coco;16,19;None
+player;0;0;Sergio;10,19;None
+player;0;0;beautifulcody;8,19;None
+player;0;0;Sir Carter;16,17;None
+player;0;0;Not Tracer;15,17;None
+player;0;0;T Rob;15,19;None
+player;0;0;Dornstar;15,18;None
+player;0;0;Leech;9,18;None
+# Enemies
+# Bosses
+enemy;0;0;Sidney;12,2;None
+# Generics
+enemy;0;0;Myrmidon;1;Iron Sword;15,12;Attack;Resistance
+enemy;0;0;Mercenary;1;Iron Sword;4,15;Attack;Resistance
+enemy;0;0;Mercenary;2;Iron Sword;None;Attack;Resistance
+enemy;0;0;Myrmidon;2;Iron Sword;8,13;Attack;Resistance
+enemy;0;0;Soldier;1;Iron Lance;9,12;Attack;Resistance
+enemy;0;0;Soldier;2;Iron Lance;16,13;Attack;Resistance
+enemy;0;0;Cavalier;1;Iron Sword,Iron Lance;7,9;Attack;Resistance
+enemy;0;0;Knight;3;Iron Lance,dSkeleton Key;12,6;SoftGuard;Resistance
+enemy;0;0;Skirmisher;2;Iron Lance;12,7;Attack;Resistance
+enemy;0;0;Fighter;2;Iron Axe;20,7;Attack;Resistance
+enemy;0;0;Mercenary;1;Iron Sword;4,16;Attack;Resistance
+enemy;0;0;Mercenary;1;Iron Sword;20,15;Attack;Resistance
+enemy;0;0;Mercenary;1;Iron Sword;20,16;Attack;Resistance
+enemy;0;0;Mercenary;2;Iron Sword;None;Attack;Resistance
+enemy;0;0;Mercenary;2;Iron Sword;12,11;Attack;Resistance
+enemy;0;0;Mercenary;2;Iron Sword;12,10;Attack;Resistance
+enemy;0;0;Cavalier;1;Iron Sword,Iron Lance;17,9;Attack;Resistance
+enemy;0;0;Fighter;2;Iron Axe;4,7;Attack;Resistance
+enemy;0;0;Myrmidon;2;Iron Sword;2,9;Attack;Resistance
+enemy;0;0;Soldier;2;Iron Lance;3,9;Attack;Resistance
+enemy;0;0;Soldier;2;Iron Lance;21,9;Attack;Resistance
+enemy;0;0;Myrmidon;1;Iron Sword;22,9;Attack;Resistance
+enemy;0;0;Myrmidon;1;Iron Sword;None;Attack;Resistance
+# === Reinforcements ===
+# Player Characters
+# Enemies
+# === Triggers ===

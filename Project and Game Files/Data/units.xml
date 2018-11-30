@@ -1,0 +1,573 @@
+<unit_catalog>
+	
+    <!-- Player Characters -->
+    <unit name="Jaeger">
+        <id>Jaeger</id>
+        <gender>2</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>8,0,0,0,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>16,8,2,13,14,7,5,2</bases>
+		<growths>80,35,0,55,55,30,20,20</growths>
+        
+        <inventory>Iron Sword</inventory>
+        
+        <level>1</level>
+        <class>Myrmidon</class>
+        <desc>A strong-hearted renegade who often acts before he thinks.</desc>
+        
+        <tags>Lord</tags>
+        <skills></skills>
+    </unit>
+
+    <unit name="NANC">
+        <id>NANC</id>
+        <gender>7</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,0,0,0,D,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>18,0,2,4,8,6,2,6</bases>
+		<growths>50,15,60,25,40,60,15,55</growths>
+        
+        <inventory>Glimmer,Heal</inventory>
+        
+        <level>1</level>
+        <class>Cleric</class>
+        <desc>A shy but kind-hearted young woman. Has an affinity with the spiritual.</desc>
+        
+        <tags></tags>
+        <skills></skills>
+    </unit>
+
+    <unit name="Kenboslice">
+        <id>Kenboslice</id>
+        <gender>0</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,0,C,0,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>21,8,0,7,7,3,5,1</bases>
+		<growths>80,65,5,40,20,40,25,15</growths>
+        
+        <inventory>Iron Axe,Vulnerary</inventory>
+        
+        <level>1</level>
+        <class>Fighter</class>
+        <desc>A jovial former sailor. Always ready for a new adventure.</desc>
+        
+        <tags></tags>
+        <skills></skills>
+    </unit>
+
+    <unit name="Olive">
+        <id>Olive</id>
+        <gender>6</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,0,0,C,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>17,4,2,5,6,4,3,2</bases>
+		<growths>55,45,25,50,60,50,15,35</growths>
+        
+        <inventory>Willow Bow,Vulnerary</inventory>
+        
+        <level>1</level>
+        <class>Archer</class>
+        <desc>A quiet archer most at home in the wilderness.</desc>
+        
+        <tags></tags>
+        <skills></skills>
+    </unit>
+
+    <unit name="Mama Coco">
+        <id>Mama Coco</id>
+        <gender>5</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,0,0,0,0,6,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>17,1,6,6,7,8,3,5</bases>
+		<growths>55,45,30,50,60,50,15,35</growths>
+        
+        <inventory>Fire,Vulnerary</inventory>
+        
+        <level>1</level>
+        <class>Mage</class>
+        <desc>A forthright but elegant and refined sorceress.</desc>
+        
+        <tags></tags>
+        <skills></skills>
+    </unit>
+
+    <unit name="Sergio">
+        <id>Sergio</id>
+        <gender>0</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>11,C,0,0,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>20,7,1,5,7,2,6,1</bases>
+		<growths>80,40,5,40,50,40,25,20</growths>
+        
+        <inventory>Iron Sword,Iron Lance</inventory>
+        
+        <level>1</level>
+        <class>Cavalier</class>
+        <desc>A disgraced Imperial knight now in Althea's service.</desc>
+        
+        <tags></tags>
+        <skills></skills>
+    </unit>
+
+    <unit name="beautifulcody">
+        <id>beautifulcody</id>
+        <gender>5</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>C,0,0,0,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>18,4,2,4,10,8,3,1</bases>
+		<growths>75,40,20,40,65,45,25,20</growths>
+        
+        <inventory>Iron Sword,Vulnerary</inventory>
+        
+        <level>1</level>
+        <class>Thief</class>
+        <desc>An energetic thief with a kleptomanic streak.</desc>
+
+        <tags></tags>
+        <skills></skills>
+    </unit>
+
+    <unit name="Sir Carter">
+        <id>Sir Carter</id>
+        <gender>0</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,C,0,0,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>25,9,0,6,3,3,9,3</bases>
+		<growths>90,45,15,35,30,30,55,20</growths>
+        
+        <inventory>Iron Lance,Vulnerary</inventory>
+        
+        <level>1</level>
+        <class>Knight</class>
+        <desc>An avid scholar. Interested in esoteric philosophy.</desc>
+        
+        <tags></tags>
+        <skills></skills>
+    </unit>
+
+    <unit name="Not Tracer">
+        <id>Not Tracer</id>
+        <gender>5</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,21,0,0,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>22,4,0,1,1,1,3,1</bases>
+		<growths>80,45,15,35,25,25,45,30</growths>
+        
+        <inventory>Iron Lance,Javelin</inventory>
+        
+        <level>1</level>
+        <class>Soldier</class>
+        <desc>A moody, sarcastic soldier.</desc>
+
+        <tags></tags>
+        <skills></skills>
+    </unit>
+
+    <unit name="T Rob">
+        <id>T Rob</id>
+        <gender>0</gender>
+
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,0,0,0,31,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>18,3,7,8,9,7,3,7</bases>
+		<growths>65,15,35,45,55,55,40,65</growths>
+        
+        <inventory>Shine,Mend,Fortune</inventory>
+        
+        <level>1</level>
+        <class>Tactician</class>
+        <desc>The resistance's leader. Ambitious and inquisitive.</desc>
+
+        <tags></tags>
+        <skills></skills>
+    </unit>
+
+    <unit name="Dornstar">
+        <id>Dornstar</id>
+        <gender>0</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>B,0,0,0,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>20,9,0,11,9,4,5,2</bases>
+		<growths>90,45,5,40,30,30,35,25</growths>
+        
+        <inventory>Rusted Sword,Vulnerary</inventory>
+        
+        <level>1</level>
+        <class>Mercenary</class>
+        <desc>A troubled wandererer with a mysterious past.</desc>
+        
+        <tags></tags>
+        <skills>fMaximum HP +5</skills>
+    </unit>
+
+    <unit name="Leech">
+        <id>Leech</id>
+        <gender>5</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,0,0,0,0,0,36</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>22,1,10,8,5,0,2,7</bases>
+		<growths>70,5,50,40,35,20,10,45</growths>
+        
+        <inventory>Flux,Scathe,Spiritbane</inventory>
+        
+        <level>1</level>
+        <class>Shaman</class>
+        <desc>A scheming diplomat from the Confederacy.</desc>
+        
+        <tags></tags>
+        <skills>fSpeed +2</skills>
+    </unit>
+
+    <!-- Named NPC Characters/Bosses -->
+    <unit name="Yohn">
+        <id>Yohn</id>
+        <gender>0</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>A,0,0,0,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>25,9,5,12,13,5,6,6</bases>
+        <growths>0,0,0,0,0,0,0,0</growths>
+        
+        <inventory>Mithril Sword</inventory>
+        
+        <level>4</level>
+        <class>Myrmidon,Swordmaster</class>
+        <desc>A devoted monk. Ophie's mentor in the way of the blade.</desc>
+        
+        <tags></tags>
+        <skills></skills>
+    </unit>
+
+    <unit name="Kiley">
+        <id>Kiley</id>
+        <gender>0</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,0,A,0,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>27,12,1,9,8,6,5,3</bases>
+        <growths>0,0,0,0,0,0,0,0</growths>
+        
+        <inventory>Rusted Axe</inventory>
+        
+        <level>2</level>
+        <class>Raider,Berserker</class>
+        <desc>Jovial leader by acclamation of the Tyrana prisoners.</desc>
+        
+        <tags></tags>
+        <skills></skills>
+    </unit>
+
+    <!-- Level 1 Boss -->
+    <unit name="Sidney">
+        <id>Sidney</id>
+        <gender>0</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,0,D,0,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>30,12,0,5,5,0,10,5</bases>
+        <growths>100,50,0,50,0,0,0,0</growths>
+        
+        <inventory>Hand Axe,Iron Axe</inventory>
+        
+        <level>4</level>
+        <class>Fighter</class>
+        <desc>A cruel Imperial lieutenant.</desc>
+
+        <tags></tags>
+        <skills></skills>
+    </unit>
+
+    <!-- Level 2 Boss -->
+    <unit name="Brigham">
+        <id>Brigham</id>
+        <gender>0</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,0,0,0,0,0,D</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>19,1,7,5,4,5,3,6</bases>
+        <growths>100,0,100,50,50,50,0,50</growths>
+        
+        <inventory>Flux,dAngelic Robe</inventory>
+        
+        <level>6</level>
+        <class>Shaman</class>
+        <desc>Tasked with hunting down the Empire's fugitives.</desc>
+        
+        <tags>Boss</tags>
+        <skills></skills>
+    </unit>
+
+    <!-- Level 3 Boss -->
+    <unit name="Harold">
+        <id>Harold</id>
+        <gender>0</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,C,0,0,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>31,7,1,6,2,4,7,3</bases>
+        <growths>100,50,0,50,0,50,50,50</growths>
+        
+        <inventory>Steel Lance,dJavelin</inventory>
+        
+        <level>8</level>
+        <class>Knight</class>
+        <desc>Captain in the Imperial Army. Ulver's sworn man.</desc>
+        
+        <tags>Boss</tags>
+        <skills></skills>
+    </unit>
+
+    <!-- Level 4 Boss -->
+    <unit name="Anders">
+        <id>Anders</id>
+        <gender>0</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,0,B,0,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>23,7,0,6,5,2,5,1</bases>
+        <growths>100,50,0,0,50,0,0,0</growths>
+        
+        <inventory>Great Axe,Hand Axe</inventory>
+        
+        <level>8</level>
+        <class>Brigand</class>
+        <desc>First lieutenant at the Tyrana Mines.</desc>
+        
+        <tags>Boss</tags>
+        <skills></skills>
+    </unit>
+
+    <unit name="Midas">
+        <id>Midas</id>
+        <gender>0</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,0,0,0,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>17,0,0,3,5,0,3,2</bases>
+        <growths>0,0,0,0,0,0,0,0</growths>
+        
+        <inventory>dSapphire</inventory>
+        
+        <level>5</level>
+        <class>Wagon</class>
+        <desc>A greedy Imperial merchant.</desc>
+        
+        <tags>Boss</tags>
+        <skills></skills>
+    </unit>
+
+    <!-- Level 5 boss -->
+    <unit name="Jules">
+        <id>Jules</id>
+        <gender>0</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,0,B,0,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>28,7,5,11,8,6,5,7</bases>
+		<growths>65,35,0,15,15,15,15,0</growths>
+        
+        <inventory>Steel Axe,Elixir</inventory>
+        
+        <level>10</level>
+        <class>Brigand</class>
+        <desc>Boss of the Ghat mountain bandits.</desc>
+        
+        <tags>Boss</tags>
+        <skills></skills>
+    </unit>
+
+    <unit name="Vincent">
+        <id>Vincent</id>
+        <gender>0</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,0,B,0,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>29,11,0,7,7,1,7,5,9,0</bases>
+        <growths>0,0,0,0,0,0,0,0</growths>
+        
+        <inventory>Great Axe,Short Axe,Energy Ring</inventory>
+        
+        <level>10</level>
+        <class>Brigand</class>
+        <desc>Boss of the Ghat mountain bandits</desc>
+        
+        <tags>Boss</tags>
+        <skills></skills>
+    </unit>
+
+    <!-- Level 6 Boss -->
+    <unit name="Razia">
+        <id>Razia</id>
+        <gender>5</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>A,0,0,0,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>27,8,6,11,12,5,6,7,6,0</bases>
+        <growths>100,50,50,50,50,50,0,50</growths>
+        
+        <inventory>Mithril Sword,Boltblade</inventory>
+        
+        <level>4</level>
+        <class>Myrmidon,Swordmaster</class>
+        <desc>Harsh warden of the Tyrana Prison.</desc>
+        
+        <tags>Boss</tags>
+        <skills></skills>
+    </unit>
+
+    <!-- Level 7 Boss -->
+    <unit name="Marduk">
+        <id>Marduk</id>
+        <gender>0</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,0,0,0,A,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>23,5,13,11,9,3,7,15,5,0</bases>
+        <growths>100,50,100,50,50,0,0,100</growths>
+        
+        <inventory>Corona,Physic,dRefresh</inventory>
+        
+        <level>5</level>
+        <class>Tactician,Strategist</class>
+        <desc>A member of the Empire's elite cadre of tacticians.</desc>
+        
+        <tags>Boss</tags>
+        <skills></skills>
+    </unit>
+
+    <!-- Level 8 Boss -->
+    <unit name="Vagnius">
+        <id>Vagnius</id>
+        <gender>0</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,0,0,0,0,0,A</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>34,3,17,14,13,7,11,13</bases>
+        <growths>100,0,50,50,50,100,0,100</growths>
+        
+        <inventory>Ruin,dMana Ring</inventory>
+        
+        <level>8</level>
+        <class>Shaman,Warlock</class>
+        <desc>Ruthless and cunning Imperial warlock.</desc>
+        
+        <tags></tags>
+        <skills></skills>
+    </unit>
+
+    <!-- Level 9 Boss -->
+    <unit name="Boaz">
+        <id>Boaz</id>
+        <gender>0</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,0,A,0,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>39,18,1,13,12,11,7,6</bases>
+        <growths>200,50,0,100,100,0,0,0</growths>
+        
+        <inventory>dAdamant Axe,Tomahawk,Elixir</inventory>
+        
+        <level>10</level>
+        <class>Raider,Berserker</class>
+        <desc>An acclaimed hunter of rare beasts.</desc>
+        
+        <tags>Boss</tags>
+        <skills></skills>
+    </unit>
+
+    <unit name="Jakin">
+        <id>Jakin</id>
+        <gender>0</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>A,0,0,A,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>26,9,7,17,20,9,4,9</bases>
+        <growths>100,50,50,50,0,0,0,50</growths>
+        
+        <inventory>Longbow,dAdamant Sword</inventory>
+        
+        <level>10</level>
+        <class>Thief,Assassin</class>
+        <desc>An enigmatic masked man.</desc>
+        
+        <tags>Boss</tags>
+        <skills></skills>
+    </unit>
+
+    <!-- Level 10 Boss -->
+    <unit name="Adjutant">
+        <id>Adjutant</id>
+        <gender>0</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>0,0,0,0,A,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>34,3,15,12,13,13,12,14</bases>
+        <growths>0,0,100,0,0,0,0,0</growths>
+        
+        <inventory>Corona,Physic</inventory>
+        
+        <level>10</level>
+        <class>Tactician,Strategist</class>
+        <desc>Duke Ulver's loyal assistant.</desc>
+        
+        <tags>Boss</tags>
+        <skills>Imperial Wards</skills>
+    </unit>
+    <unit name="Ulver">
+        <id>Ulver</id>
+        <gender>0</gender>
+        
+        <!-- Swords, Lances, Axes, Bows, Light, Anima, Dark -->
+        <wexp>A,A,A,0,0,0,0</wexp>
+        <!-- HP, Str, Mag, Skl, Spd, Lck, Def, Res -->
+		<bases>80,19,12,20,12,8,18,16</bases>
+        <growths>0,0,0,0,0,0,0,0</growths>
+        
+        <inventory>Makara</inventory>
+        
+        <level>5</level>
+        <class>Knight,General,Duke</class>
+        <desc>Hard-nosed Imperial Duke occupying Kerala.</desc>
+        
+        <tags>Boss</tags>
+        <skills>Imperial Wards</skills>
+    </unit>
+</unit_catalog>
